@@ -1,0 +1,187 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+}
+
+/*INICIANDO HEADER*/
+
+.header {
+    width: 100%;
+    height: 234px;
+    background-image: url("https://picjumbo.com/wp-content/uploads/DSC02544-2210x1473.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-blur {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(65, 43, 18, 0.59);
+    color: rgb(248, 241, 230);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-top: .5em;
+}
+
+.header-links {
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.header-links p {
+    text-align: right;
+    margin: 0;
+}
+
+.header-links a {
+    color: rgb(248, 241, 230);
+    text-decoration: none;
+}
+
+/*CONCLUINDO HEADER*/
+
+
+/*CRIANDO ABA DO SLOGAN*/
+.slogan-container {
+    width: 50%;
+    background-color: #f8ead9;
+    padding: 20px;
+    box-shadow: -4px 7px 6px 7px rgba(0, 0, 0, 0.219);
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px auto;
+}
+
+/*CONCLUINDO ABA DO SLOGAN*/
+
+.goal-container {
+    display: block;
+    padding: 0;
+}
+
+.goal-container img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.goal-container div {
+    background-color: #2E2E2E;
+    padding: 40px 25px;
+    margin: 0;
+}
+
+.goal-container div p {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.prices {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://user-images.githubusercontent.com/49375534/92335103-29666f00-f06a-11ea-8914-8831417e1620.jpeg");
+}
+
+.prices div {
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    list-style: none;
+    padding: 3em 0 4em 0;
+    text-align: left;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.prices div h2 {
+    text-align: center;
+}
+
+.prices div ul {
+    margin: 0;
+}
+
+.prices div ul li {
+    margin: 0;
+    list-style: none;
+}
+
+.contact {
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contact form input {
+    width: 50%;
+    border: 1px solid rgb(48, 22, 14);
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.contact form textarea {
+    resize: none;
+    width: 80%;
+    height: 10rem;
+    border: 1px solid rgb(48, 22, 14);
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgb(48, 22, 14);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+}
+
+.ig {
+    width: 2rem;
+    max-height: auto;
+}
+
+/*VERSÃO PC/TABLET*/
+
+@media only screen and (min-width: 846px) {
+    .goal-container {
+        display: flex;
+        margin-bottom: 4rem;
+    }
+
+    .prices {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 5rem 0;
+    }
+
+    .contact form textarea {
+        width: 40%;
+    }
+
+    .contact form input {
+        width: 20%;
+    }
+}
